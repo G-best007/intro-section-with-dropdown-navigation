@@ -1,0 +1,108 @@
+@import url('https://fonts.google.com/specimen/Epilogue');
+
+:root{
+ /* Neutral color */
+ --Neutral-color-1: hsl(0, 0%, 98%);
+ --Neutral-color-2: hsl(0, 0%, 41%);
+ --Neutral-color-3: hsl(0, 0%, 8%);
+
+ /*  fonts*/
+ --fs: 18px;
+ --fw-1: 500;
+ --fw-2: 700;
+}
+
+
+
+body{
+ background-color: var(--Neutral-color-1);
+ font-family: 'Epilogue', sans-serif;
+ line-height: 1.3;
+}
+
+p{
+ font-size: var(--fs);
+}
+
+
+
+.nav-link:hover{
+ font-weight: bold;
+}
+
+.firstlink{
+  margin-top: 25px;
+}
+
+.button{
+ width: 150px;
+ border-radius: 10px;
+ border: 1px solid black;
+ margin: 0px 10px 10px 0px;
+ background-color: var(--Neutral-color-1);
+}
+
+.imageparent{
+  max-width: 100%;
+  width: 100%;
+}
+
+h1{
+ font-weight: var(--fw-2);
+ font-size: 3.5rem;
+ line-height: 1.2;
+ width: 345px;
+ overflow-wrap: break-word;
+ word-wrap: break-word;
+ word-break: normal;
+}
+
+.flex{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.svg{
+   width: 10px;
+   margin-left: 20px;
+}
+
+.para{
+ width: 380px;
+}
+
+.hero{
+  max-width: 100%;
+ width: 100%;
+ height: 450px;
+}
+
+@media(max-width:991px){
+  .button{
+   background: white;
+  }
+}
+
+@media(max-width:767px){
+ .words{
+  text-align: center;
+ }
+
+ h1{
+  width: 100%;
+  margin-bottom: 20px;
+ }
+ 
+ .para{
+  width: 100%;
+ }
+}
+
+
+
+
+
+
+
+
